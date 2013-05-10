@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">阶梯电价计算器</string>
+    <string name="fun_calc">电费计算</string>
+    <string name="fun_history">历史数据</string>
+    <string name="fun_set">费率设置</string>
+    <string name="fun_tips">省电贴士</string>
+    <string name="title1">当前电价</string>
+    <string name="title2">计算</string>
+    <string name="et1">请输入用电量</string>
+    <string name="et2">请输入电费</string>
+    <string name="btn">计算</string>
+    <string name="jiben">第一级0-</string>
+    <string name="erji">第二级</string>
+    <string name="sanji">第三级大于</string>
+    <string name="dianjia">度电价:</string>
+    <string name="danwei">元/度</string>
+    <string name="t1">第一阶梯最大可用电量</string>
+    <string name="t2">第二阶梯最大可用电量</string>
+    <string name="t3">第一阶梯电价</string>
+    <string name="t4">第二阶梯电价</string>
+    <string name="t5">第三阶梯电价</string>
+    <string name="g1">我要计算</string>
+    <string name="g2">我的历史数据</string>
+    <string name="g3">我的电价配置</string>
+    <string name="jisuan">计算</string>
+    <string name="shezhi">设置</string>
+    <string name="lishi">历史</string>
+    <string name="shengdian">省电</string>
+</resources>

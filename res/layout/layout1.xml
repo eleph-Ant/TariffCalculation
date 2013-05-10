@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14fc374e543c9e"
+        ads:loadAdOnCreate="true" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:background="@color/devider2"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="@string/title1"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+    <ImageView
+        android:id="@+id/ly1_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:background="@color/black" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/orange" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:background="@color/devider2"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="@string/title2"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="10dp" >
+        <EditText
+            android:id="@+id/ly1_et_num"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="@string/et1"
+            android:inputType="number"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/ly1_button1"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:background="@color/x"
+            android:gravity="center"
+            android:text="@string/btn"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
